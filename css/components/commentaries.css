@@ -1,0 +1,106 @@
+.commentaries {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    width: auto;
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding-top: 20px;
+}
+
+.commentaries .commentary {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    border-top: 1px solid #000;
+
+    max-width: 500px;
+    padding: 10px 20px;
+}
+
+.commentaries .commentary .user-avatar{
+    margin-right: 30px;
+}
+
+.commentaries .commentary .user-avatar img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.commentaries .rating {
+    margin-top: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.commentaries .rating img {
+    height: 20px;
+}
+
+.leave-commentary {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.leave-commentary textarea {
+    border: 1px solid #000;
+    width: 500px;
+
+    padding: 10px 15px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.leave-commentary button {
+    margin-top: 15px;
+    padding: 15px 25px;
+
+    background-color: #fad567;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.leave-commentary button:hover {
+    background-color: #febd02;
+}
+
+.comment-warning {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.deleteButton {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating input:checked+label img {
+    filter: invert(67%) sepia(67%) saturate(631%) hue-rotate(360deg) brightness(103%) contrast(97%);
+}
+
+@media (max-width: 570px) {
+    .leave-commentary textarea {
+        width: 300px;
+    }
+}

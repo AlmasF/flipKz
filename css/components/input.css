@@ -1,0 +1,12 @@
+.input-file {
+    position: relative;
+}
+
+.input-file input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    
+}

@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+body .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+}
+
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+
+body .container .main-elements {
+}
+
+@media (max-width: 800px) {
+    .navigation-elements {
+        display: none;
+    }
+}

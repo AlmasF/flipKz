@@ -1,0 +1,36 @@
+.help {
+
+    width: 232px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    margin-left: 10px;
+
+}
+
+.help h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.help p {
+    margin-bottom: 5px;
+}
+
+.help span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.help span img {
+    margin-right: 10px;
+}
+
+.help a:hover {
+    color: #ffbd00;
+}

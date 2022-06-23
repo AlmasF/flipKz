@@ -1,0 +1,81 @@
+.add-good-block {
+    width: 350px;
+    height: fit-content;
+
+    background-color: #fff;
+    box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.05);;
+
+    position: absolute; 
+    left: 0; 
+    right: 0;
+    top: 50px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 350px; /* Need a specific value to work */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    padding: 10px 10px;
+
+}
+
+.add-good-block input {
+    border: 1px solid #c2c6ce;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    margin-bottom: 15px;
+    height: 60px;
+    width: 100%;
+}
+
+.add-good-block .add-good-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.add-good-block button {
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+
+    background-color: #FFBD00;
+
+    margin-bottom: 20px;
+}
+
+
+.input {
+    width: 100%;
+    height: 50px;
+    padding: 0 24px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.add-good-block textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+    border: 1px solid #000;
+    resize: none;
+}

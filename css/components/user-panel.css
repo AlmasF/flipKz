@@ -1,0 +1,13 @@
+.user-panel {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.user-panel p {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.user-panel a:hover {
+    color: #ffbd00;
+}

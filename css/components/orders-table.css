@@ -1,0 +1,23 @@
+.orders-table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    grid-gap: 1px;
+    border: 1px solid #d4d4d4;
+}
+
+.orders-table > span {
+    padding: 15px;
+    text-align: center;
+    background-color: inherit;
+    border-right: inherit;
+    margin-right: -1px;
+    border-bottom: inherit;
+    margin-bottom: -1px;
+}
+/* 
+.orders-table span {
+    width: 100px;
+    height: fit-content;
+    padding: 5px 5px;
+} */
